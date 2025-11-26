@@ -34,6 +34,7 @@
 **GitHub** : 버전 관리 도구인 Git으로 관리되는 소스코드 형상관리 정보를 보여주는 웹 기반 서비스 ([link](https://gihub.com))
 ## 3.1. GitHub 활용법
 ### 3.1.1. 로컬 레포지토리에서 작업
+> 원격 레포지토리가 **Github에 생성되어 있음**을 가정
 ```
 git clone <remote-repo>
 ```
@@ -47,7 +48,6 @@ git commit -m "<msg>"
 git push <remote> <branch>
 ```
 ### 3.2.2. 원격 레포지토리의 변경사항 가져오기
-> 원격 레포지토리가 **Github에 생성되어 있음**을 가정
 ```
 git fetch <remote>
 ```
